@@ -1,0 +1,20 @@
+name: DL
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - gdal
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.8
+  - matplotlib
+  - opencv
+  - jupyter
+  - nbconvert
+  - pip
+  - pip:
+      - alive-progress
+      - path
